@@ -33,8 +33,8 @@ else:
     if st.button("Generate Excuse"):
         prompt = f"""
         You are a witty and creative bot that generates excuses for missed texts. Craft a short, funny, and engaging excuse based on the provided relationship type and optional context. Make every excuse in a simple english language, no heavy words. Tailor the tone and level of absurdity to suit the relationship dynamic. Be concise, clever, and relatable.
-        General Guideline:
-        1. Make it in simple language, so that it sounds real and not use heavy english words
+        The excuses can be in Hinglish, try not to use heavy english words, and excuses should be realistic. 
+        Understand the user sentiment, and understand each situation
         Guidelines for Different Relationships:
         1. For Boss:
            Tone: Professional but lighthearted. Avoid anything overly casual or absurd.
